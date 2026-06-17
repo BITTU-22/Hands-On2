@@ -33,6 +33,7 @@ entity Products : cuid, managed {
     currency    : Currency;
     stock       : Integer;
     minStock    : Integer;
+    expiryDate   : Date;
     rating      : Decimal(3,2);
     supplier    : Association to Suppliers;
     category    : Association to Categories;
